@@ -1,0 +1,446 @@
+{
+  "airports": [
+    {
+      "id": "ABZ",
+      "name": "Aberdeen",
+      "available": true,
+      "synonym": null,
+      "group": [
+        "SC"
+      ],
+      "groups": [
+        "SC"
+      ],
+      "children": []
+    },
+    {
+      "id": "BHD",
+      "name": "Belfast City",
+      "available": true,
+      "synonym": null,
+      "group": [],
+      "groups": [],
+      "children": []
+    },
+    {
+      "id": "BFS",
+      "name": "Belfast International",
+      "available": true,
+      "synonym": null,
+      "group": [
+        "NI"
+      ],
+      "groups": [
+        "NI"
+      ],
+      "children": []
+    },
+    {
+      "id": "BHX",
+      "name": "Birmingham",
+      "available": true,
+      "synonym": null,
+      "group": [
+        "MD"
+      ],
+      "groups": [
+        "MD"
+      ],
+      "children": []
+    },
+    {
+      "id": "BOH",
+      "name": "Bournemouth",
+      "available": true,
+      "synonym": null,
+      "group": [
+        "SE",
+        "SW"
+      ],
+      "groups": [
+        "SE",
+        "SW"
+      ],
+      "children": []
+    },
+    {
+      "id": "BRS",
+      "name": "Bristol",
+      "available": true,
+      "synonym": null,
+      "group": [
+        "SW"
+      ],
+      "groups": [
+        "SW"
+      ],
+      "children": []
+    },
+    {
+      "id": "CWL",
+      "name": "Cardiff",
+      "available": true,
+      "synonym": null,
+      "group": [
+        "SW",
+        "WA"
+      ],
+      "groups": [
+        "SW",
+        "WA"
+      ],
+      "children": []
+    },
+    {
+      "id": "LDY",
+      "name": "City of Derry",
+      "available": true,
+      "synonym": null,
+      "group": [],
+      "groups": [],
+      "children": []
+    },
+    {
+      "id": "DSA",
+      "name": "Doncaster Sheffield",
+      "available": true,
+      "synonym": null,
+      "group": [
+        "NE"
+      ],
+      "groups": [
+        "NE"
+      ],
+      "children": []
+    },
+    {
+      "id": "EMA",
+      "name": "East Midlands",
+      "available": true,
+      "synonym": null,
+      "group": [
+        "MD"
+      ],
+      "groups": [
+        "MD"
+      ],
+      "children": []
+    },
+    {
+      "id": "EDI",
+      "name": "Edinburgh",
+      "available": true,
+      "synonym": null,
+      "group": [
+        "SC"
+      ],
+      "groups": [
+        "SC"
+      ],
+      "children": []
+    },
+    {
+      "id": "EXT",
+      "name": "Exeter",
+      "available": true,
+      "synonym": null,
+      "group": [
+        "SW"
+      ],
+      "groups": [
+        "SW"
+      ],
+      "children": []
+    },
+    {
+      "id": "GLA",
+      "name": "Glasgow",
+      "available": true,
+      "synonym": null,
+      "group": [
+        "SC"
+      ],
+      "groups": [
+        "SC"
+      ],
+      "children": []
+    },
+    {
+      "id": "HUY",
+      "name": "Humberside",
+      "available": true,
+      "synonym": null,
+      "group": [
+        "NE"
+      ],
+      "groups": [
+        "NE"
+      ],
+      "children": []
+    },
+    {
+      "id": "INV",
+      "name": "Inverness",
+      "available": true,
+      "synonym": null,
+      "group": [],
+      "groups": [],
+      "children": []
+    },
+    {
+      "id": "LBA",
+      "name": "Leeds Bradford",
+      "available": true,
+      "synonym": null,
+      "group": [
+        "NE",
+        "NW"
+      ],
+      "groups": [
+        "NE",
+        "NW"
+      ],
+      "children": []
+    },
+    {
+      "id": "LPL",
+      "name": "Liverpool John Lennon",
+      "available": true,
+      "synonym": null,
+      "group": [
+        "NW"
+      ],
+      "groups": [
+        "NW"
+      ],
+      "children": []
+    },
+    {
+      "id": "LCY",
+      "name": "London City",
+      "available": true,
+      "synonym": null,
+      "group": [
+        "LN",
+        "SE"
+      ],
+      "groups": [
+        "LN",
+        "SE"
+      ],
+      "children": []
+    },
+    {
+      "id": "LGW",
+      "name": "London Gatwick",
+      "available": true,
+      "synonym": null,
+      "group": [
+        "LN",
+        "SE"
+      ],
+      "groups": [
+        "LN",
+        "SE"
+      ],
+      "children": []
+    },
+    {
+      "id": "LHR",
+      "name": "London Heathrow",
+      "available": true,
+      "synonym": null,
+      "group": [
+        "LN",
+        "SE"
+      ],
+      "groups": [
+        "LN",
+        "SE"
+      ],
+      "children": []
+    },
+    {
+      "id": "LTN",
+      "name": "London Luton",
+      "available": true,
+      "synonym": null,
+      "group": [
+        "LN",
+        "SE"
+      ],
+      "groups": [
+        "LN",
+        "SE"
+      ],
+      "children": []
+    },
+    {
+      "id": "SEN",
+      "name": "London Southend",
+      "available": true,
+      "synonym": null,
+      "group": [
+        "LN",
+        "SE"
+      ],
+      "groups": [
+        "LN",
+        "SE"
+      ],
+      "children": []
+    },
+    {
+      "id": "STN",
+      "name": "London Stansted",
+      "available": true,
+      "synonym": null,
+      "group": [
+        "LN",
+        "SE"
+      ],
+      "groups": [
+        "LN",
+        "SE"
+      ],
+      "children": []
+    },
+    {
+      "id": "MAN",
+      "name": "Manchester",
+      "available": true,
+      "synonym": null,
+      "group": [
+        "NW"
+      ],
+      "groups": [
+        "NW"
+      ],
+      "children": []
+    },
+    {
+      "id": "NCL",
+      "name": "Newcastle",
+      "available": true,
+      "synonym": null,
+      "group": [
+        "NE"
+      ],
+      "groups": [
+        "NE"
+      ],
+      "children": []
+    },
+    {
+      "id": "NWI",
+      "name": "Norwich",
+      "available": true,
+      "synonym": null,
+      "group": [
+        "SE"
+      ],
+      "groups": [
+        "SE"
+      ],
+      "children": []
+    },
+    {
+      "id": "SOU",
+      "name": "Southampton",
+      "available": true,
+      "synonym": null,
+      "group": [
+        "SE",
+        "SW"
+      ],
+      "groups": [
+        "SE",
+        "SW"
+      ],
+      "children": []
+    }
+  ],
+  "airportGroups": [
+    {
+      "id": "LN",
+      "name": "Any London",
+      "available": true,
+      "synonym": null,
+      "group": [],
+      "groups": [],
+      "children": []
+    },
+    {
+      "id": "MD",
+      "name": "Any Midlands",
+      "available": true,
+      "synonym": null,
+      "group": [],
+      "groups": [],
+      "children": []
+    },
+    {
+      "id": "NE",
+      "name": "Any North-East",
+      "available": true,
+      "synonym": null,
+      "group": [],
+      "groups": [],
+      "children": []
+    },
+    {
+      "id": "NW",
+      "name": "Any North-West",
+      "available": true,
+      "synonym": null,
+      "group": [],
+      "groups": [],
+      "children": []
+    },
+    {
+      "id": "NI",
+      "name": "Any Northern Ireland",
+      "available": true,
+      "synonym": null,
+      "group": [],
+      "groups": [],
+      "children": []
+    },
+    {
+      "id": "SC",
+      "name": "Any Scotland",
+      "available": true,
+      "synonym": null,
+      "group": [],
+      "groups": [],
+      "children": []
+    },
+    {
+      "id": "SE",
+      "name": "Any South-East",
+      "available": true,
+      "synonym": null,
+      "group": [],
+      "groups": [],
+      "children": []
+    },
+    {
+      "id": "SW",
+      "name": "Any South-West",
+      "available": true,
+      "synonym": null,
+      "group": [],
+      "groups": [],
+      "children": []
+    },
+    {
+      "id": "WA",
+      "name": "Any Wales",
+      "available": true,
+      "synonym": null,
+      "group": [],
+      "groups": [],
+      "children": []
+    }
+  ]
+}

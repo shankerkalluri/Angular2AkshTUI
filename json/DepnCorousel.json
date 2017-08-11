@@ -1,0 +1,105 @@
+{
+  "components": [
+    {
+      "heading": "WARM UP IN THE CANARIES THIS WINTER.",
+      "imageURL": "http://newmedia.thomson.co.uk/live/vol/2/11257c5b494dae8553abcc5010f6697dfb0238fb/658x370/web/EUROPEMEDITERRANEANTURKEYCON_TURTURKEY-DALAMANFETHIYERES_000449HILLSIDEBEACHCLUB.jpg",
+      "imagesList": {
+        "SMALL": "//digital.thomson.co.uk/Mobile-hero.jpg",
+        "MEDIUM": "//digital.thomson.co.uk/Mini-tab-hero.jpg",
+        "LARGE": "//digital.thomson.co.uk/Tablet-hero.jpg",
+        "XLARGE": "//digital.thomson.co.uk/india.jpg"
+      },
+      "introTextList": {
+        "text": "WARM UP IN THE CANARIES THIS WINTER.",
+        "subText": [
+          "Escape to the Canary Islands and save £50 per booking with code CAN50."
+        ]
+      },
+      "isMerch": "yes",
+      "mboxName": "TH_Half",
+      "navigationUrl": "http://www.thomson.co.uk/destinations/discover",
+      "title": "",
+      "typecode": "TUIGenericMediaComponent"
+    },
+    {
+      "heading": "SAVE WITH FREE CHILD PLACES.",
+      "imageURL": "http://newmedia.thomson.co.uk/live/vol/2/11257c5b494dae8553abcc5010f6697dfb0238fb/658x370/web/qwewqewqe-DALAMANFETHIYERES_000449HILLSIDEBEACHCLUB.jpg",
+      "imagesList": {
+        "SMALL": "//wqeco.uk/Mobile-hero.jpg",
+        "MEDIUM": "//diwqen.co.uk/Mini-tab-hero.jpg",
+        "LARGE": "//digqwewqen.co.uk/Tablet-hero.jpg",
+        "XLARGE": "//diwqeq.uk/india.jpg"
+      },
+      "introTextList": {
+        "text": "SAVE WITH FREE CHILD PLACES.",
+        "subText": [
+          "Using our NEW free child place finder."
+        ]
+      },
+      "isMerch": "yes",
+      "mboxName": "TH_Quarter",
+      "navigationUrl": "http://www.thomson.co.uk/destinations/discover",
+      "title": "",
+      "typecode": "TUIGenericMediaComponent"
+    },
+    {
+      "heading": "SAVE WITH OUR LOW DEPOSITS.",
+      "imageURL": "",
+      "imagesList": {
+        "SMALL": "",
+        "MEDIUM": "",
+        "LARGE": "",
+        "XLARGE": ""
+      },
+      "introTextList": {
+        "text": "SAVE WITH OUR LOW DEPOSITS.",
+        "subText": [
+          "Book your holiday for as little as £50 per person.",
+          "Terms and conditions apply."
+        ]
+      },
+      "isMerch": "yes",
+      "mboxName": "TH_Left_Mini_Half",
+      "navigationUrl": "httphttp://www.thomson.co.uk/destinations/discover",
+      "title": "",
+      "typecode": "TUIGenericMediaComponent"
+    },
+    {
+      "heading": "RECOMMENDED FOR YOU",
+      "imageURL": "",
+      "imagesList": {
+        "SMALL": [
+          "asd.jpg",
+          "cbs.jpg",
+          "yasdu.jpg"
+        ],
+        "MEDIUM": [
+          "awqsd.jpg",
+          "cwebs.jpg",
+          "yaesdu.jpg"
+        ],
+        "LARGE": [
+          "afsdsd.jpg",
+          "cfsdbs.jpg",
+          "yasfsddu.jpg"
+        ],
+        "XLARGE": [
+          "sdfasd.jpg",
+          "cbsdfs.jpg",
+          "yasfsddu.jpg"
+        ]
+      },
+      "introTextList": {
+        "text": "on all summer 16 holidays",
+        "subText": [
+          "Terms and conditions apply"
+        ]
+      },
+      "isMerch": "yes",
+      "mboxName": "TH_Left_Mini_Half",
+      "navigationUrl": "httphttp://www.thomson.co.uk/destinations/discover",
+      "title": "",
+      "typecode": "HomePageRecommendationsCarouselComponent"
+    }
+  ]
+}

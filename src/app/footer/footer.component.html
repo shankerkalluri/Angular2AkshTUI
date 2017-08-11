@@ -1,0 +1,116 @@
+<article class="col-xs-12 no-padding" id="footer">
+	<section class="content-width">
+		<div class="col-xs-12 col-sm-12 social">
+			<div class="col-xs-12 col-sm-6 socialIcons">
+				<span class="facebook"><a href="https://www.facebook.com/Thomsonholidays"><img src="../src/images/icons/facebook.png"></a></span>
+				<span class="twitter"><a href="https://twitter.com/ThomsonHolidays"><img src="../src/images/icons/twitter.png"></a></span>
+				<span class="googlePlus"><a href="https://plus.google.com/105351898291984054379"><img src="../src/images/icons/google-plus-logo.png"></a></span>
+				<span class="pinterest"><a href="http://www.pinterest.com/thomsonholidays/"><img src="../src/images/icons/pinterest.png"></a></span>
+				<span class="youtube"><a href="http://www.youtube.com/ThomsonHols"><img src="../src/images/icons/youtube.png"></a></span>
+				<span class="instagram"><a href="http://www.instagram.com/thomsonholidays/"><img src="../src/images/icons/instagram.png"></a></span>
+			</div>
+			<div class="col-xs-12 col-sm-6 socialIcons text-right fwt-600">
+				<span><a id="backtotop" href="#page">To top</a></span>
+			</div>
+		</div>
+		<div class="col-xs-12 no-padding">
+			<div id="offers" class="no-padding"><div class="content-width"><p>Our top deals tailored for you, straight to your inbox <a href="http://www.thomson.co.uk/destinations/info/sign-up">Sign up for offers</a></p></div></div>
+		</div>
+	</section>
+	<section id="search">	
+		<div  class="content-width">
+			<div class="col-xs-12 col-sm-6 pd-t-5">
+				<div class="input-group searchbox">
+			      	<input type="text" class="form-control" placeholder="Search">
+			      	<div class="input-group-btn">
+			        	<button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+			      	</div>
+	    		</div>
+			</div>
+			<div class="col-xs-12 col-sm-6 text-right pd-t-7">
+				<a href="/destinations/shop-finder" class="plrd-10">Shop Finder</a> 
+				<a href="/destinations/faqCategories" class="plrd-10">Ask us a question</a> 
+				<a href="/editorial/legal/contact-us.html" class="plrd-10">Contact us</a>
+			</div>
+		</div>
+		
+	</section>
+	<section>
+		<div class="content-width">
+			<div id="group" class="b thomson">
+				<div class="content-width">
+					<div class="copy">
+						<span id="world-of-tui">
+							<img src="{{footerJson.groupDet && footerJson?.groupDet[0]?.imageURL}}" alt="{{footerJson.groupDet && footerJson?.groupDet[0]?.alt}}">
+						</span>
+						<p>{{footerJson.groupDet && footerJson?.groupDet[0]?.text}}</p>
+					</div>
+					<div class="logos">
+					<a *ngFor='let navigation of footerJson.groupDet && footerJson?.groupDet[0]?.logos' href="{{navigation.lhref}}" id="{{navigation.idVal}}" title="{{navigation.ltitle}}">
+					<img src="{{navigation.limg}}" class="hide" alt=""></a> 
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		<div class="content-width">
+
+		</div>
+	</section>
+	<section>
+		<div id="seo">
+
+<div class="content-width trigger">
+<ul>
+
+<li *ngFor='let navLink of footerJson?.seoDet?.accordion?.links'><a href="">{{navLink}}</a></li>
+
+<li data-toggle="collapse" data-target="#expanded" class="glyphicon glyphicon-triangle-bottom"></li>
+</ul>
+</div>
+<div class="content-width expanded collapse" id="expanded">
+
+<div *ngFor='let navLink of footerJson?.seoDet?.accordion?.links' class="c">
+<p>{{navLink}}</p>
+<div>
+	<a *ngFor="let navLinkDet of footerJson?.seoDet?.accordion[navLink]" href="{{navLinkDet.lhref}}" >{{navLinkDet.text}}</a> 
+</div>
+
+
+</div>
+</div>
+
+</div>
+	</section>
+
+<section>
+	<div id="terms">
+<div class="content-width">
+<p class="title">{{footerJson?.termSec?.title}}</p>
+<p><a *ngFor='let navLink of footerJson?.termSec?.links' href="{{navLink.lhref}}">{{navLink.ltext}}</a>  
+</p>
+</div>
+</div>
+</section>	
+<section>
+<div id="group" class="b thomson">
+	<div class="content-width">
+		<ul>
+			<li class="know-before">
+				<h3>{{footerJson?.groupSecDet?.header}}</h3>
+				<p *ngFor="let paraEl of footerJson?.groupSecDet?.paraEl">
+{{paraEl?.text}}<a href="{{paraEl?.link}}" target="_blank">{{paraEl?.ltext}}</a>
+				</p>
+			</li>
+		</ul>
+	</div>
+</div>
+</section>
+<section>
+	<div id="disclaimer">
+	<div class="content-width disclaim two-columns">
+		<p>{{footerJson?.disclaimer?.text}}<a href="{{footerJson?.disclaimer?.lUrl}}">{{footerJson?.disclaimer?.lText}}</a></p>
+	</div>
+</div>
+</section>
+</article>

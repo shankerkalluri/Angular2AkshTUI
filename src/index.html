@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	 <base href="/">
+		<title>TUI Project</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="Angular 2 Project">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		
+		<link href="styles/style.css" rel="stylesheet" type="text/css">
+		<link href="styles/home.css" rel="stylesheet" type="text/css">
+		
+		<!-- Polyfill(s) for older browsers -->
+		<script src="node_modules/core-js/client/shim.min.js"></script>
+		<script src="node_modules/zone.js/dist/zone.js"></script>
+		<script src="node_modules/reflect-metadata/Reflect.js"></script>
+		<script src="node_modules/systemjs/dist/system.src.js"></script>
+
+		<!-- remove for bundle usage -->
+		<script src="systemjs.config.js"></script>
+		<script>
+			System.import('app').catch(function(err){ console.error(err); });
+		</script>
+		<!-- remove for bundle usage -->
+		
+	</head>
+	<body>
+		
+		<main class="row">
+			<app-container>
+				Loading...
+			</app-container>
+			<br /><br />
+		</main>
+
+	 
+	</body>
+</html>
+
+
+

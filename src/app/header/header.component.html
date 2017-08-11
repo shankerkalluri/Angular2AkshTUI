@@ -1,0 +1,154 @@
+
+<!-- header section -->
+<article [ngClass]="{hide: !showcountries}" class="display-none">
+	<section>
+		<div class="col-sm-12 no-padding">
+			<div class="country-selector-div" style="height: 198px;">
+				<div class="tui-header-banner-wrapper">
+					<div class="tui-header-banner">
+						<div class="header-msg">
+							<span class="title">WELCOME TO</span>
+							<div class="close" name="Close" title="Close"></div>
+						</div>
+						<div class="header-msg">THE WORLD OF TUI</div>
+						<div class="sub-header-msg">PLEASE CHOOSE YOUR TUI WEBSITE</div>
+						<div class="flags-section-wrapper">
+							<div class="country-flag">
+								<ul>
+									<li><a href="http://www.tui.ch/?onebrand_source=country_selector_tuiuk"><i class="schweiz"></i>TUI Schweiz</a></li>
+									<li><a href="http://www.tui.at/?onebrand_source=country_selector_tuiuk"><i class="osterreich"></i>TUI Österreich</a></li>
+									<li><a href="https://www.tui.nl/?onebrand_source=country_selector_tuiuk"><i class="nederland"></i>TUI Nederland</a></li>
+									<li><a href="http://www.tui.fr/?onebrand_source=country_selector_tuiuk"><i class="france"></i>TUI France</a></li>
+									<li><a href="http://www.tui.pl/?onebrand_source=country_selector_tuiuk"><i class="polska"></i>TUI Polska</a></li>
+									<li><a href="http://www.es.tui.com/?onebrand_source=country_selector_tuiuk"><i class="espana"></i>TUI España</a></li>
+								</ul>
+								<ul class="flags_6">
+									<li><a href="http://www.tui.com/?onebrand_source=country_selector_tuiuk"><i class="uk"></i>TUI Deutschland</a></li>
+									<li><a href="http://www.startour.dk/?onebrand_source=country_selector_tuiuk"><i class="danmark"></i>TUI Danmark</a></li>
+									<li><a href="http://www.jetair.be/?onebrand_source=country_selector_tuiuk"><i class="belgie"></i>TUI België</a></li>
+									<li><a href="http://www.startour.no/?onebrand_source=country_selector_tuiuk"><i class="norge"></i>TUI Norge</a></li>
+									<li><a href="http://www.fritidsresor.se/?onebrand_source=country_selector_tuiuk"><i class="svergie"></i>TUI Sverige</a></li>
+									<li><a href="http://www.finnmatkat.fi/?onebrand_source=country_selector_tuiuk"><i class="suomi"></i>TUI Suomi</a></li>					  		
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</article>
+<article class="col-sm-12 top-bar">
+
+	<section class="content-width">
+		
+		<div id="logo" class="col-sm-5">
+            <a href="#">
+            	<div class="headerLogo"></div>
+            </a>
+       	</div>
+		<div id="header-inner" class="col-md-6">
+			<div class="pull-right">
+				<ul>
+				  	<li><a href="#">Shortlist (<span class="count headerCount">0</span>)</a></li>
+				  	<li><a href="#">Travel Information</a></li>
+				  	<li class="dropdown">
+				    	<a href="javascript:void(0)" class="dropbtn" (click)="loadUser()">Account &amp; Bookings <span class="caret"></span></a>
+				    	<div class="dropdown-content">
+				      		<a href="#" >{{ profile | json }}</a>
+				    	</div>
+				  	</li>
+				  	<li>
+				  		<a href="javascript:void(0)" class="country-selector" (click)="showcountry()"> 
+				  			<img src="../images/uk_flag.png">
+				  		</a>
+				  	</li>
+				</ul>
+			</div>			
+		</div>
+		<div  class="col-sm-1 no-padding">
+            <a href="#">
+	  			<img src="../images/wot.png">
+	  		</a>
+       	</div>
+	</section>
+</article>
+			
+
+	<nav class=" navbar navbar-default" style="position: initial;background-color: #70cbf4;">
+       <div  class=" content-width-menu2">
+       		
+			<div class="dropdown2" *ngFor='let navigation of header.elements'>
+				<div *ngIf="navigation.type=='MainNavigation'">
+					<div>
+					<button class="dropbtn2">
+						<a href="{{navigation.linkTo}}">
+							<div>{{navigation.value}}</div>
+						</a>
+					</button>
+				</div>
+					<div class="dropdown-content2" *ngIf="navigation.children.length>0">
+						<div class="col-xs-12 menusubmenu">
+							<span class="maintext">{{navigation.megaMenuLabel}}</span>
+							<span><a href="{{navigation.linkTo}}">{{navigation.subLabel}}</a></span>
+						</div>
+						<hr class="col-xs-12">
+						<div *ngFor='let subNavigations of navigation.children'>
+							<div *ngFor='let subNavigation of subNavigations'>
+								<div>
+									<div class="submenu" [ngClass]="{emptysub: subNavigation.type=='GroupType'}">{{subNavigation.value}}</div>
+									<div *ngFor='let subNavigationList of subNavigation.children' [ngClass]="{menuImages: subNavigationList.type=='Collections',menuImageslogo: subNavigationList.type=='Logo'}">
+										<div [ngClass]="{viewall: subNavigationList.type=='ViewAllAnchor'}">
+											<a href="{{subNavigationList.linkTo}}" >
+												<span>{{subNavigationList.value}}</span>
+												<img src="{{subNavigationList.imageSource}}" title="{{subNavigationList.description}}">
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+		    	</div>
+		    </div>
+
+	 <!-- <div class="dropdown2">
+		  <button class="dropbtn2">CRUISES <span class="caret caret2"></span></button>
+		  <div class="dropdown-content2">
+			<a href="#" >Link 1</a>
+			<a href="#">Link 2</a>
+			<a href="#">Link 3</a>
+		  </div>
+    </div>
+	 <div class="dropdown2">
+		  <button class="dropbtn2">FLIGHTS <span class="caret caret2"></span></button>
+		  <div class="dropdown-content2">
+			<a href="#">Link 1</a>
+			<a href="#">Link 2</a>
+			<a href="#">Link 3</a>
+		  </div>
+    </div>
+	 <div class="dropdown2">
+		  <button class="dropbtn2">CITIES <span class="caret caret2"></span></button>
+		  <div class="dropdown-content2">
+			<a href="#">Link 1</a>
+			<a href="#">Link 2</a>
+			<a href="#">Link 3</a>
+		  </div>
+    </div>
+	 
+	    <button class="dropbtn2">MULTI CENTRES </button>
+		 <button class="dropbtn2">DEALS </button>
+		  <button class="dropbtn2">DESTINATIONS </button>
+          <button class="dropbtn2">EXTRAS </button>	 
+    </div> -->
+   <!--  </div>
+</nav> -->
+<div class="container">
+ 	<router-outlet></router-outlet>
+</div>
+
+
+
+						
+		

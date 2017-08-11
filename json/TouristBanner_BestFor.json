@@ -1,0 +1,96 @@
+{
+  "DestinationDeals": {
+    "header": "DESTINATION DEALS",
+    "items": [
+      {
+        "text": "Spain Deals",
+        "link": "/destinations/deals/spain-deals",
+        "val": "180"
+      },
+      {
+        "text": "Canary Island Deals",
+        "link": "/destinations/deals/spain-deals",
+        "val": "184"
+      },
+      {
+        "text": "Short Haul Deals",
+        "link": "/destinations/deals/spain-deals",
+        "val": "592"
+      },
+      {
+        "text": "Florida Deals",
+        "link": "/destinations/deals/spain-deals",
+        "val": "330"
+      },{
+        "text": "Short Haul Deals",
+        "link": "/destinations/deals/spain-deals",
+        "val": "592"
+      },
+      {
+        "text": "Florida Deals",
+        "link": "/destinations/deals/spain-deals",
+        "val": "330"
+      }
+    ]
+  },
+  "Touristbanner": [
+    {
+      "heading": "TRAVEL TO THE LAND OF SMILES",
+      "imageURL": "/destinations/_ui/mobile/th/images/responsive-homepage/1080x608-Asia.jpg",
+      "imagesList": {
+        "SMALL": "//digital.thomson.co.uk/Mobilasdo.jpg",
+        "MEDIUM": "//digital.thomson.co.uk/Minsadro.jpg",
+        "LARGE": "//digital.thomson.co.uk/16752_TH_Desktop_Costa-Daurada_JAN17.jpg",
+        "XLARGE": "//digital.thomson.co.uk/india.jpg"
+      },
+      "introTextList": {
+        "text": "Destination of the fortnight",
+        "subText": [
+          "With bright markets, wild elephants and ancient temples, colourful Goa has plenty to explore. See it all for yourself this winter."
+        ]
+      },
+      "mboxName": "TH_Home_Tourist_Board",
+      "navigationUrl": "http://www.thomson.co.uk/destinations/discover",
+      "typecode": "TouristBannerComponent",
+      "width": "homepage_quarter"
+    }
+  ],
+  "BestForSlot": {
+    "header": "Best for...",
+    "subHeader": "We've created gateways especialaly for families, couples and those who like to get off the beaten track. We design holidays around you",
+    "items": [
+      {
+        "linktext": "Luxury Holidays",
+        "linkurl": "http://www.thomson.co.uk/holidays/luxury"
+      },
+      {
+        "linktext": "Multi-centre Holidays",
+        "linkurl": "http://www.thomson.co.uk/holidays/multi-centre-holidays"
+      },
+      {
+        "linktext": "Villa Holidays",
+        "linkurl": "http://www.thomson.co.uk/holidays/villa"
+      },
+      {
+        "linktext": "Adult Holidays",
+        "linkurl": "http://www.thomson.co.uk/holidays/adult"
+      },
+      {
+        "linktext": "Luxury Holidays2",
+        "linkurl": "http://www.thomson.co.uk/holidays/luxury"
+      },
+      {
+        "linktext": "Multi-centre Holidays2",
+        "linkurl": "http://www.thomson.co.uk/holidays/multi-centre-holidays"
+      },
+      {
+        "linktext": "Villa Holidays2",
+        "linkurl": "http://www.thomson.co.uk/holidays/villa"
+      },
+      {
+        "linktext": "Adult Holidays2",
+        "linkurl": "http://www.thomson.co.uk/holidays/adult"
+      }
+    ]
+  }
+}

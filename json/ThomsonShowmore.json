@@ -1,0 +1,57 @@
+{
+  "header": "HOLIDAYS DESIGNED BY TUI",
+  "headerDet": "At TUI we're proud of our unrivalled offering of unique hotels and exciting destinations. Whatever you're looking for we've got a holiday collection designed especially for you. From family getaways and couple's retreats to all-out indulgence and off-the-beaten-track adventures the world is your oyster. That's why 97% of our customers rate us as good or excellent.",
+  "showmoreText": "MORE FROM TUI",
+  "components": [
+    {
+      "text": "Luxury Holidays to fuel the senses",
+      "link": "http://www.thomson.co.uk/holidays/sensatori"
+    },
+    {
+      "text": "Family moments together",
+      "link": "http://www.thomson.co.uk/holidays/family-life"
+    },
+    {
+      "text": "Luxury Holidays to fuel the senses",
+      "link": "http://www.thomson.co.uk/destinations/deals/tui-magic-life"
+    },
+    {
+      "text": "Stylish holidays designed for adults",
+      "link": "http://www.thomson.co.uk/holidays/sensimar"
+    },
+    {
+      "text": "A new experience every day",
+      "link": "http://www.thomson.co.uk/holidays/robinson-club"
+    }
+  ],
+  "showmore": [
+    {
+      "text": "HOLIDAYS IN PREMIUM HOTELS",
+      "link": "http://www.thomson.co.uk/holidays/platinum"
+    },
+    {
+      "text": "LUXURY HOTELS FROM AROUND THE WORLD",
+      "link": "http://www.thomson.co.uk/holidays/family-life"
+    },
+    {
+      "text": "CLASSIC HOLIDAYS DESIGNED FOR ADULTS",
+      "link": "http://www.thomson.co.uk/destinations/deals/tui-magic-life"
+    },
+    {
+      "text": "CHILLED DAYS, LIVELY NIGHTS",
+      "link": "http://www.thomson.co.uk/holidays/sensimar"
+    },
+    {
+      "text": "UNBEATABLE VALUE HOLIDAYS",
+      "link": "http://www.thomson.co.uk/holidays/robinson-club"
+    },
+    {
+      "text": "Holidays with an authentic feel",
+      "link": "http://www.thomson.co.uk/holidays/robinson-club"
+    },
+    {
+      "text": "Handpicked holiday homes",
+      "link": "http://www.thomson.co.uk/holidays/robinson-club"
+    }
+  ]
+}

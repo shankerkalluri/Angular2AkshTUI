@@ -1,0 +1,23 @@
+{
+  
+  "imagesList": {
+    "SMALL": "//digital.thomson.co.uk/Mobile-hero.jpg",
+    "MEDIUM": "//digital.thomson.co.uk/Mini-tab-hero.jpg",
+    "LARGE": "//digital.thomson.co.uk/Tablet-hero.jpg",
+    "XLARGE": "//digital.thomson.co.uk/india.jpg"
+  },
+  "heading": "TRAVEL TO THE LAND OF SMILES",
+  "imageURL": "http://newmedia.thomson.co.uk/live/vol/2/11257c5b494dae8553abcc5010f6697dfb0238fb/658x370/web/EUROPEMEDITERRANEANTURKEYCON_TURTURKEY-DALAMANFETHIYERES_000449HILLSIDEBEACHCLUB.jpg",
+  "introTextList": {
+    "text": "Book your iceland adventure and save £20 per adult with code TA120",
+    "subText": ["Terms and conditions apply"]
+  },
+  "isMerch": "no",
+  "mboxName": "TH_Hero",
+  "navigationUrl": "http://www.thomson.co.uk/destinations/discover",
+  "title": "BE INSPIRED BY THE BEST TRAVEL EXPERIENCES FROM AROUND THE GLOBE",
+  "discoverMore": {
+    "morText": "DISCOVER MORE FROM THOMSON",
+    "Type": "HEADER_1"
+  }
+}

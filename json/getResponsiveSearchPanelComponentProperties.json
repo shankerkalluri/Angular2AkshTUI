@@ -1,0 +1,51 @@
+{
+  "HowLongDuration": [
+    {
+      "description": "a few days",
+      "value": 4321,
+      "order": 1
+    },
+    {
+      "description": "around 11 nights",
+      "value": 1224,
+      "order": 0
+    },
+    {
+      "description": "around a week",
+      "value": 1132,
+      "order": 4
+    },
+    {
+      "description": "around 10 nights",
+      "value": 1014,
+      "order": 3
+    },
+    {
+      "description": "around 2 weeks",
+      "value": 1114,
+      "order": 2
+    },
+    {
+      "description": "long stay",
+      "value": 1114,
+      "order": 5
+    }
+  ],
+  "infantAge": 2,
+  "maxAirportsSelectable": 10,
+  "maxChildAge": 17,
+  "maxCountriesViewable": 2,
+  "maxDestinationsViewable": 4,
+  "maxHotelsViewable": 2,
+  "maxNoOfAdult": 10,
+  "maxNoOfChild": 17,
+  "maxNoOfSeniors": 2,
+  "maxPaxConfig": 4,
+  "maxProdRangeViewable": 2,
+  "minChildAge": 0,
+  "minNoOfAdult": 4,
+  "minNoOfChild": 2,
+  "mostpopulardestinations": 4,
+  "persistedSearchPeriod": 30,
+  "": ""
+}
